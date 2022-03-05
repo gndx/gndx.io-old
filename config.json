@@ -1,0 +1,68 @@
+{
+  "data": {
+    "type": "local",
+    "name": "data"
+  },
+  "meta": {
+    "title": "GNDX.io - Home of your Product's changelogs",
+    "description": "Recent changes to your product and it's benefits",
+    "image": "/static/ProductLog.png"
+  },
+  "logo": {
+    "image": "/static/logo.svg",
+    "text": "GNDX.io"
+  },
+  "header": {
+    "title": "Latest projects",
+    "description": "New updates and improvements to this project will be documented in this page.",
+    "menu": [
+      {
+        "name": "Contact",
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "footer": {
+    "section": [
+      {
+        "linkTitle": "Social",
+        "links": [
+          {
+            "name": "Twitter",
+            "link": "https://example.com"
+          },
+          {
+            "name": "Instagram",
+            "link": "https://example.com"
+          },
+          {
+            "name": "GitHub",
+            "link": "https://example.com"
+          }
+        ]
+      },
+      {
+        "linkTitle": "Company",
+        "links": [
+          {
+            "name": "YouTube",
+            "link": "https://example.com"
+          },
+          {
+            "name": "Twitch",
+            "link": "https://example.com"
+          },
+          {
+            "name": "Linkedin",
+            "link": "https://example.com"
+          }
+        ]
+      }
+    ],
+    "copyright": "© 2021 GNDX.io · All rights reserved"
+  },
+  "analytics": {
+    "type": "Google Analytics",
+    "id": ""
+  }
+}
