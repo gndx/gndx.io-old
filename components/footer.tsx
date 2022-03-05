@@ -9,19 +9,8 @@ export default function Footer() {
     <footer className="bg-primary-light">
       <div className="flex flex-col md:flex-row gap-4 max-w-6xl p-8 mx-auto">
         <div className="flex-1 flex flex-col justify-center items-start">
-          {config.logo.image && (
-            <div className="mb-2">
-              <img
-                src={config.logo.image}
-                className="w-12 max-h-12 object-contain"
-                alt={config.logo.text}
-              />
-            </div>
-          )}
           <Link href="/">
-            <a className="block justify-items-start font-medium text-2xl">
-              {config.logo.text}
-            </a>
+            <a className="block justify-items-start font-medium text-2xl">{config.logo.text}</a>
           </Link>
           <p className="text-gray-600">{config.meta.description}</p>
         </div>
@@ -31,12 +20,7 @@ export default function Footer() {
             <ul className="">
               {section.links.map((footerLink) => (
                 <li key={footerLink.name + footerLink.link}>
-                  <a
-                    href={footerLink.link}
-                    target="_blank"
-                    rel="noopener"
-                    className="block py-1"
-                  >
+                  <a href={footerLink.link} target="_blank" rel="noopener" className="block py-1">
                     {footerLink.name}
                   </a>
                 </li>
